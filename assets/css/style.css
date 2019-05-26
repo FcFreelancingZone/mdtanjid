@@ -161,7 +161,7 @@ img {
 .wc-img {
 	position: relative;
 }
-.wc-img:after {
+/*.wc-img:after {
 	content: '';
 	width: 100%;
 	height: 100%;
@@ -170,7 +170,7 @@ img {
 	left: 0;
 	background: #000000;
 	opacity: .5;
-}
+}*/
 .wc-content {
 	color: #ffffff;
 	position: absolute;
@@ -358,7 +358,6 @@ img {
 }
 .font i {
 	font-size :20px;
-}
 }
 .fa-tag {
 	color: #60ba60;

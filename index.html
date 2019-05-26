@@ -8,11 +8,12 @@
 	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
 	<link rel="stylesheet" href="assets/css/jquery-ui-1.9.2.custom.min.css">
 	<link rel="stylesheet" href="assets/css/jquery.lineProgressbar.css">
+	<link rel="stylesheet" href="assets/css/animate.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
 	<header>
-		<div class="header-top">
+		<div class="header-top animated bounce delay-2s">
 			<div class="container flex">
 				<div class="contuct-info">
 					<i class="fas fa-home"></i>
@@ -55,7 +56,7 @@
 	</header>
 	<section class="wc-area">
 		<div class="wc-img owl-carousel owl-theme">	
-			<div>
+			<div class=" wow fadeInLeft delay-2s">
 				<div>
 					<img src="assets/img/wc-img.png" alt="wc-img">
 				</div>
@@ -94,7 +95,7 @@
 		</div>
 	</section>
 	<section class="intro-area">
-		<div class="intro-top container sec-pad">
+		<div class="intro-top container sec-pad wow animated fadeInDown delay-2s">
 			<h1>WE LOVE DESIGN SHARP <span>MULTIPURPOSE</span> PARALLAX TEMPLATE</h1>
 			<p>Lorem ipsum dolor sit amet, perfecto definiebas ius ea, error explicari repudiare visex. Dudicabit gubergren est eu, no vis justo detraxit, vix blandit aliquando te. Prima meliore electramad est copiosae interesset, eu solum possim eum. Repudiare tincidunt vix ne, omnium fabellas ei mea, duo cu alia habeo debitis.</p>
 			<img src="assets/img/intro.png" alt="intro">
@@ -125,40 +126,42 @@
 		</div>
 	</section>
 	<section class="portfolio sec-pad">
-		<div class="special-heading">
-			<h2>Our Complated Project</h2>
-			<span></span>
-		</div>
-		<nav>
-			<ul>
-				<li><i class="fas fa-th"></i></li>
-				<li>business</li>
-				<li>coporate</li>
-				<li>branding</li>
-				<li>photography</li>
-			</ul>
-		</nav>
-		<div class="portfolio-img flex">
-			<div class="portfolio-item overlay">
-				<a href="#"><img height="495px" src="assets/img/portfolio.png" alt=""></a>
-				<i class="fas fa-search"></i>
+		<div class="mixitup-container">
+			<div class="special-heading">
+				<h2>Our Complated Project</h2>
+				<span></span>
 			</div>
-			<div class="portfolio-item flex">
-				<div class="p-item overlay bot-mar">
-					<a href="#"><img height="240px" src="assets/img/portfolio-1.png" alt=""></a>
+			<nav>
+				<ul>
+					<li data-filter="all"><i class="fas fa-th"></i></li>
+					<li data-filter=".business">business</li>
+					<li data-filter=".coporate">coporate</li>
+					<li data-filter=".branding">branding</li>
+					<li data-filter=".photography">photography</li>
+				</ul>
+			</nav>
+			<div class="portfolio-img flex">
+				<div class="portfolio-item business overlay mix">
+					<a href="#"><img height="495px" src="assets/img/portfolio.png" alt=""></a>
 					<i class="fas fa-search"></i>
 				</div>
-				<div class="p-item overlay bot-mar">
-					<a href="#"><img height="240px" src="assets/img/portfolio-2.png" alt=""></a>
-					<i class="fas fa-search"></i>
-				</div>
-				<div class="p-item overlay">
-					<a href="#"><img height="240px" src="assets/img/portfolio-3.png" alt=""></a>
-					<i class="fas fa-search"></i>
-				</div>
-				<div class="p-item overlay">
-					<a href="#"><img height="240px" src="assets/img/portfolio-4.png" alt=""></a>
-					<i class="fas fa-search"></i>
+				<div class="portfolio-item flex">
+					<div class="p-item overlay bot-mar mix photography">
+						<a href="#"><img height="240px" src="assets/img/portfolio-1.png" alt=""></a>
+						<i class="fas fa-search"></i>
+					</div>
+					<div class="p-item overlay bot-mar mix branding">
+						<a href="#"><img height="240px" src="assets/img/portfolio-2.png" alt=""></a>
+						<i class="fas fa-search"></i>
+					</div>
+					<div class="p-item overlay mix coporate">
+						<a href="#"><img height="240px" src="assets/img/portfolio-3.png" alt=""></a>
+						<i class="fas fa-search"></i>
+					</div>
+					<div class="p-item overlay mix photography">
+						<a href="#"><img height="240px" src="assets/img/portfolio-4.png" alt=""></a>
+						<i class="fas fa-search"></i>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -575,10 +578,12 @@
 			</div>
 		</div>
 	</footer>
-	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
 	<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
 	<script type="text/javascript" src="assets/js/jquery-ui-1.9.2.custom.min.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.lineProgressbar.js"></script>
+	<script type="text/javascript" src="assets/js/mixitup.min.js"></script>
+	<script type="text/javascript" src="assets/js/wow.js"></script>
 	<script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 </html>

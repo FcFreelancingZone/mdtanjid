@@ -7,6 +7,9 @@ $('.owl-carousel').owlCarousel({
     autoplay:true,
     smartSpeed : 3000
 });
+$(document).ready(function(){
+      let mixer = mixitup('.mixitup-container')
+    });
 
 $( function() {
     $( "#accordion" ).accordion();
